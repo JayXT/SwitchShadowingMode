@@ -2,7 +2,7 @@
 
 ## EN
 
-A simple GNU/Linux shell script to redirect in real-time microphone input to headphones and thus hear both your voice and system audio at the same time. This is especially useful for monitoring your continuous shadowing of language parent during pronunciation training on [Refold Stage 3B](https://t.me/RefoldUA/184) or later.
+A simple GNU/Linux shell script to redirect in real-time microphone input to headphones and thus hear both your voice and system audio at the same time. This is especially useful for monitoring your continuous shadowing of a language parent during pronunciation training on [Refold Stage 3B](https://t.me/RefoldUA/184) or later.
 
 ### Dependencies
 - PipeWire + WirePlumber
