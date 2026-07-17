@@ -15,7 +15,7 @@ A simple GNU/Linux shell script to redirect in real-time microphone input to hea
 5. When the shadowing mode needs to be deactivated, press the shortcut once more.
 
 ### Notes
-- It's important void using the script with speakers as a default output device to avoid audio feedback.
+- It's important void using the script with speakers as a default output device to avoid audio feedback. Earbuds or ideally headphones should be used.
 - The script was tested against Debian 13 XFCE.
 
 ## UK
@@ -30,5 +30,5 @@ A simple GNU/Linux shell script to redirect in real-time microphone input to hea
 5. Щоб вимкнути режим наслідування мови, натисніть цю комбінацію клавіш ще раз.
 
 ### Примітки
-- Важливо не використовувати скрипт, якщо динаміки обрані як пристрій виводу за замовчуванням, щоб уникнути зворотного аудіо зв’язку.
+- Важливо не використовувати скрипт, якщо динаміки обрані як пристрій виводу за замовчуванням, щоб уникнути зворотного аудіо зв’язку. Слід використовувати навушники-вкладиші або, в ідеалі, накладні навушники.
 - Скрипт було протестовано на Debian 13 XFCE.
