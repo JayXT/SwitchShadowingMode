@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if pkill -f 'pw-loopback --name shadowing'; then
+	notify-send "Shadowing Mode" "Deactivated 🔇" -t 2000
+	exit 0
+fi
+
+MIC="$(pactl get-default-source)"
+OUT="$(pactl get-default-sink)"
+
+PIPEWIRE_LATENCY="128/48000" pw-loopback \
+	--name shadowing \
+	--capture "$MIC" \
+	--playback "$OUT" \
+	> /dev/null 2>&1 &
+
+notify-send "Shadowing Mode" "Activated 🎙️🎧" -t 2000
