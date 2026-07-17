@@ -14,6 +14,10 @@ A simple GNU/Linux shell script to redirect in real-time microphone input to hea
 4. When the shadowing mode needs to be activated, press the shortcut once.
 5. When the shadowing mode needs to be deactivated, press the shortcut once more.
 
+### Notes
+- It's important void using the script with speakers as a default output device to avoid audio feedback.
+- The script was tested against Debian 13 XFCE.
+
 ## UK
 
 Простий скрипт оболонки GNU/Linux, що дозволяє перенаправляти в режимі реального часу сигнал з мікрофона на навушники і таким чином чути водночас ваш голос та системне аудіо. Це особливо корисно для моніторингу вашого безперервного наслідування мови батька впродовж тренування вимови на [Refold Стадії 3Б](https://telegra.ph/S3B3-Trenuvannya-vimovi-10-16) чи пізніше.
@@ -24,3 +28,7 @@ A simple GNU/Linux shell script to redirect in real-time microphone input to hea
 3. У налаштуваннях вашого середовища робочого столу (DE) або віконного менеджера (WM) призначте комбінацію клавіш для запуску скрипта, наприклад `Super+Shift+S`.
 4. Щоб увімкнути режим наслідування мови, натисніть цю комбінацію клавіш один раз.
 5. Щоб вимкнути режим наслідування мови, натисніть цю комбінацію клавіш ще раз.
+
+### Примітки
+- Важливо не використовувати скрипт, якщо динаміки обрані як пристрій виводу за замовчуванням, щоб уникнути зворотного аудіо зв’язку.
+- Скрипт було протестовано на Debian 13 XFCE.
