@@ -7,12 +7,14 @@ A simple GNU/Linux shell script to redirect in real-time microphone input to hea
 ### Dependencies
 - PipeWire + WirePlumber
 
-### Usage
+### Preparation
 1. Copy the script to any directory under PATH.
 2. Make the script executable.
 3. Assign a shortcut in your DE or WM configuration to call the script, e.g. `Super+Shift+S`.
-4. When the shadowing mode needs to be activated, press the shortcut once.
-5. When the shadowing mode needs to be deactivated, press the shortcut once more.
+
+### Usage
+1. When the shadowing mode needs to be activated, press the respective shortcut once.
+2. When the shadowing mode needs to be deactivated, press the shortcut once more.
 
 ### Notes
 - It's important void using the script with speakers as a default output device to avoid audio feedback. Earbuds or ideally headphones should be used.
@@ -25,12 +27,14 @@ A simple GNU/Linux shell script to redirect in real-time microphone input to hea
 ### Залежності
 - PipeWire + WirePlumber
 
-### Використання
+### Підготовка
 1. Скопіюйте скрипт у будь-який каталог, що входить до змінної PATH.
 2. Надайте скрипту права на виконання.
 3. У налаштуваннях вашого середовища робочого столу (DE) або віконного менеджера (WM) призначте комбінацію клавіш для запуску скрипта, наприклад `Super+Shift+S`.
-4. Щоб увімкнути режим наслідування мови, натисніть цю комбінацію клавіш один раз.
-5. Щоб вимкнути режим наслідування мови, натисніть цю комбінацію клавіш ще раз.
+
+### Використання
+1. Щоб увімкнути режим наслідування мови, натисніть відповідну комбінацію клавіш один раз.
+2. Щоб вимкнути режим наслідування мови, натисніть цю комбінацію клавіш ще раз.
 
 ### Примітки
 - Важливо не використовувати скрипт, якщо динаміки обрані як пристрій виводу за замовчуванням, щоб уникнути зворотного аудіо зв’язку. Слід використовувати навушники-вкладиші або, в ідеалі, накладні навушники.
