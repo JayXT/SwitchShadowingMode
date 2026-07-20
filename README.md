@@ -17,7 +17,7 @@ A simple GNU/Linux shell script to redirect in real-time microphone input to hea
 2. When the shadowing mode needs to be deactivated, press the shortcut once more.
 
 ### Notes
-- It's important void using the script with speakers as a default output device to avoid audio feedback. Earbuds or ideally headphones should be used.
+- It's important to avoid using the script with speakers as a default output device to avoid audio feedback. Earbuds or ideally headphones should be used.
 - The script was tested against Debian 13 XFCE.
 
 ## UK
